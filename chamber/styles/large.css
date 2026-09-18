@@ -1,0 +1,59 @@
+@media screen and (min-width: 700px) {
+
+    header {
+        padding: 1rem max(1rem, calc((100% - 1100px) / 2));
+        flex-wrap: nowrap;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    nav a {
+        padding: 0.6rem 1rem;
+        white-space: nowrap;
+    }
+
+    main {
+        padding-top: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    /* 3 COLUMNS */
+
+    .member-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    /* LIST VIEW */
+
+    .member-list .member-card {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .member-list .member-card img {
+        display: block;
+        margin: 0;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 1.5rem max(1rem, calc((100% - 1100px) / 2));
+    }
+}

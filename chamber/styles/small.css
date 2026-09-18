@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #222831;
+    background-color: #f4f6f8;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HEADER */
+
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.brand img {
+    width: 45px;
+    height: 45px;
+}
+
+.site-name {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.site-tagline {
+    display: block;
+    font-size: 0.85rem;
+}
+
+/* HAMBURGER */
+
+#menu-button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+}
+
+#menu-button:hover {
+    background-color: #1e293b;
+    border-radius: 5px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: none;
+    width: 100%;
+}
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #14b8a6;
+}
+
+/* MAIN */
+
+main {
+    width: min(100% - 2rem, 1100px);
+    margin: 0 auto;
+    padding: 1.5rem 0 2rem;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+/* VIEW BUTTONS */
+
+.view-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.view-buttons button {
+    min-height: 40px;
+
+    border: 1px solid #9ca3af;
+    border-radius: 4px;
+
+    background-color: #e5e7eb;
+    color: #222831;
+
+    font-family: inherit;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.view-buttons button:hover {
+    background-color: #14b8a6;
+    color: white;
+}
+
+/* MEMBER GRID */
+
+.member-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* MEMBER CARD */
+
+.member-card {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 1rem;
+
+    overflow: hidden;
+}
+
+.member-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+}
+
+.member-card h2 {
+    margin: 0 0 0.75rem;
+    padding: 0.6rem 1rem;
+
+    background-color: #0f172a;
+    color: white;
+
+    font-size: 1rem;
+    text-align: center;
+}
+
+.member-card p {
+    margin: 0.4rem 0;
+}
+
+.member-card a {
+    color: #0f766e;
+    font-weight: 700;
+}
+
+/* LIST VIEW */
+
+.member-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.member-list .member-card {
+    border-radius: 4px;
+}
+
+.member-list .member-card img {
+    display: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer p {
+    margin: 0.4rem 0;
+}
+
+#lastModified {
+    color: #cbd5e1;
+    font-size: 0.85rem;
+}

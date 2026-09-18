@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Hotel Xelhua",
+        "address": "Calle 4 Sur 106",
+        "phone": "222-555-0101",
+        "website": "https://hotelxelhua.com.mx/",
+        "image": "member1.png",
+        "membership": 3,
+        "description": "A charming boutique hotel offering comfortable accommodations, fine dining, and traditional regional hospitality."
+    },
+    {
+        "name": "Container City",
+        "address": "Avenida 12 Oriente 9",
+        "phone": "222-555-0102",
+        "website": "https://ecocontainerhome.com/container-city-cholula-mexico/",
+        "image": "member2.png",
+        "membership": 2,
+        "description": "An innovative lifestyle complex featuring outdoor dining, shops, and entertainment built from repurposed shipping containers."
+    },
+    {
+        "name": "Cafe Colibri",
+        "address": "Azteca Norte 13",
+        "phone": "222-555-0103",
+        "website": "https://buddycard.mx/venues/details/927/public/",
+        "image": "member3.png",
+        "membership": 1,
+        "description": "A cozy local coffee shop serving specialty Mexican espresso drinks, fresh pastries, and light bites."
+    },
+    {
+        "name": "La Lunita Restaurant",
+        "address": "Avenida Morelos 419",
+        "phone": "222-555-0104",
+        "website": "https://oem.com.mx/aderezo/comida-mexicana/la-lunita-el-restaurante-bar-mas-antiguo-de-cholula-puebla-25353163",
+        "image": "member4.png",
+        "membership": 3,
+        "description": "A traditional Mexican restaurant specializing in authentic regional cuisine and warm, family-style dining."
+    },
+    {
+        "name": "Ocho30",
+        "address": "Calle 3 Poniente 101-A",
+        "phone": "222-555-0105",
+        "website": "https://statuspuebla.com.mx/2014/06/30/ocho-30/",
+        "image": "member5.png",
+        "membership": 2,
+        "description": "A modern cafe and bistro known for gourmet coffee, casual dining, and craft beverages in a vibrant atmosphere."
+    },
+    {
+        "name": "Chedraui",
+        "address": "Calle Alejandra 512",
+        "phone": "222-555-0106",
+        "website": "https://www.chedraui.com.mx/",
+        "image": "member6.png",
+        "membership": 1,
+        "description": "A full-service supermarket chain offering fresh produce, everyday groceries, household goods, and bakery essentials."
+    },
+    {
+        "name": "Cinepolis",
+        "address": "Avenida Forjadores de Puebla 3401",
+        "phone": "222-555-0107",
+        "website": "https://cinepolis.com/mx",
+        "image": "member7.png",
+        "membership": 3,
+        "description": "A premier movie theater offering modern screen auditoriums, comfortable seating, and a full concession menu."
+    }
+]
