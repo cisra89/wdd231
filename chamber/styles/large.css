@@ -57,3 +57,64 @@
         padding: 1.5rem max(1rem, calc((100% - 1100px) / 2));
     }
 }
+
+@media screen and (min-width: 700px) {
+
+    /* Keep your existing header/navigation CSS here */
+
+
+    .hero img {
+        min-height: 400px;
+    }
+
+    .hero-content {
+        left: 2rem;
+        bottom: 2rem;
+        right: auto;
+        max-width: 500px;
+        padding: 1.5rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+
+    /* EVENTS + WEATHER */
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .hero {
+        grid-column: 1 / -1;
+        margin-bottom: 0;
+    }
+
+    .events {
+        grid-column: 1;
+        margin-bottom: 0;
+    }
+
+    .weather {
+        grid-column: 2;
+        margin-bottom: 0;
+    }
+
+
+    /* SPOTLIGHTS */
+
+    .spotlights {
+        grid-column: 1 / -1;
+    }
+
+    #spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #forecast {
+        grid-template-columns: 1fr;
+    }
+}

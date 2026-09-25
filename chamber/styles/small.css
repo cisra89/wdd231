@@ -216,3 +216,167 @@ footer p {
     color: #cbd5e1;
     font-size: 0.85rem;
 }
+
+/* HOME PAGE */
+
+.hero {
+    position: relative;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.hero img {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    right: 1rem;
+
+    padding: 1rem;
+
+    background-color: rgba(15, 23, 42, 0.9);
+    color: white;
+
+    border-radius: 4px;
+}
+
+.hero-content h1 {
+    color: white;
+    margin: 0 0 0.5rem;
+    font-size: 1.7rem;
+}
+
+.hero-content p {
+    margin: 0 0 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+
+    background-color: #14b8a6;
+    color: white;
+
+    text-decoration: none;
+    font-weight: 700;
+
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #0f766e;
+}
+
+
+/* HOME SECTIONS */
+
+.home-section {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.home-section > h2 {
+    margin: 0;
+    padding: 0.7rem 1rem;
+
+    background-color: #0f172a;
+    color: white;
+
+    font-size: 1rem;
+    text-align: center;
+}
+
+.events article {
+    padding: 1rem;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.events article:last-child {
+    border-bottom: none;
+}
+
+.events h3 {
+    margin-top: 0;
+}
+
+
+/* WEATHER */
+
+.weather {
+  text-align: center;
+  padding: 1rem;
+}
+
+#current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#current-weather img {
+  width: 64px;
+  height: 64px;
+}
+
+.temperature {
+  font-size: 1.8rem;
+  margin: 0.25rem 0;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.forecast-day {
+  background-color: #f4f6f8;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  flex: 1;
+}
+
+
+/* SPOTLIGHTS */
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.spotlight-card {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.spotlight-card h3 {
+    color: #0f172a;
+    margin-top: 0;
+}
+
+.spotlight-card img {
+    width: 130px;
+    height: 90px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+}
+
+.spotlight-card a {
+    color: #0f766e;
+    font-weight: 700;
+}
