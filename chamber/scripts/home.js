@@ -74,7 +74,6 @@ function displayForecast(data) {
   const container = document.querySelector("#forecast");
   container.innerHTML = "";
 
-  // Group readings by date (YYYY-MM-DD)
   const dailyData = {};
   data.list.forEach((item) => {
     const date = item.dt_txt.split(" ")[0];
@@ -84,7 +83,6 @@ function displayForecast(data) {
     dailyData[date].push(item);
   });
 
-  // Get next 3 calendar days (excluding today)
   const forecastDays = Object.keys(dailyData).slice(1, 4);
 
   forecastDays.forEach((dayKey) => {
@@ -109,7 +107,6 @@ function displayForecast(data) {
 
 fetchWeatherData();
 
-  // Group readings by date (YYYY-MM-DD)
   const dailyData = {};
   data.list.forEach((item) => {
     const date = item.dt_txt.split(" ")[0];
@@ -119,7 +116,6 @@ fetchWeatherData();
     dailyData[date].push(item);
   });
 
-  // Take the next 3 days (excluding today)
   const forecastDays = Object.keys(dailyData).slice(1, 4);
 
   forecastDays.forEach((dayKey) => {
@@ -142,11 +138,9 @@ fetchWeatherData();
   });
 
 
-// Call the function on page load
 fetchWeatherData();
 
 
-/* BUSINESS SPOTLIGHTS */
 
 async function getSpotlights() {
 
