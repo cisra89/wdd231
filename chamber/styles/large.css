@@ -1,5 +1,9 @@
 @media screen and (min-width: 700px) {
 
+    /* =========================
+       HEADER
+    ========================= */
+
     header {
         padding: 1rem max(1rem, calc((100% - 1100px) / 2));
         flex-wrap: nowrap;
@@ -22,6 +26,11 @@
         white-space: nowrap;
     }
 
+
+    /* =========================
+       MAIN
+    ========================= */
+
     main {
         padding-top: 1.5rem;
     }
@@ -30,14 +39,15 @@
         font-size: 2.25rem;
     }
 
-    /* 3 COLUMNS */
+
+    /* =========================
+       DIRECTORY
+    ========================= */
 
     .member-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
-
-    /* LIST VIEW */
 
     .member-list .member-card {
         display: grid;
@@ -51,17 +61,24 @@
         margin: 0;
     }
 
-    /* FOOTER */
 
-    footer {
-        padding: 1.5rem max(1rem, calc((100% - 1100px) / 2));
+    /* =========================
+       HOME PAGE
+    ========================= */
+
+    .home-main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
     }
-}
 
-@media screen and (min-width: 700px) {
 
-    /* Keep your existing header/navigation CSS here */
+    /* HERO */
 
+    .hero {
+        grid-column: 1 / -1;
+        margin-bottom: 0;
+    }
 
     .hero img {
         min-height: 400px;
@@ -80,27 +97,23 @@
     }
 
 
-    /* EVENTS + WEATHER */
-
-    main {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1rem;
-    }
-
-    .hero {
-        grid-column: 1 / -1;
-        margin-bottom: 0;
-    }
+    /* EVENTS */
 
     .events {
         grid-column: 1;
         margin-bottom: 0;
     }
 
+
+    /* WEATHER */
+
     .weather {
         grid-column: 2;
         margin-bottom: 0;
+    }
+
+    #forecast {
+        grid-template-columns: 1fr;
     }
 
 
@@ -114,7 +127,36 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #forecast {
-        grid-template-columns: 1fr;
+
+    /* =========================
+       JOIN PAGE
+    ========================= */
+
+    .join-main {
+        display: block;
+    }
+
+    .join-layout {
+        display: grid;
+        grid-template-columns: 1.8fr 1fr;
+        align-items: start;
+        gap: 1.5rem;
+    }
+
+    .join-form-section {
+        grid-column: 1;
+    }
+
+    .membership-levels {
+        grid-column: 2;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+        padding: 1.5rem max(1rem, calc((100% - 1100px) / 2));
     }
 }

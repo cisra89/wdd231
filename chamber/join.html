@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Join the Cholula Chamber of Commerce and choose a membership level for your business.">
+
+    <meta name="author" content="Israel Cirne">
+
+    <title>Join | Cholula Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="images/logo.png"
+                alt="Cholula Chamber of Commerce logo">
+
+            <div>
+                <span class="site-name">Cholula</span>
+                <span class="site-tagline">Chamber of Commerce</span>
+            </div>
+        </div>
+
+        <button id="menu-button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="discover.html">Discover</a>
+            <a href="join.html" class="active">Join</a>
+        </nav>
+    </header>
+
+    <main class="join-main">
+
+        <h1>Join the Chamber</h1>
+
+        <div class="join-layout">
+
+            <!-- FORM -->
+            <section class="join-form-section">
+
+                <h2>Membership Application</h2>
+
+                <form method="get" action="thankyou.html">
+
+                    <label for="first-name">
+                        First Name
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="firstName"
+                            title="Enter your first name"
+                            autocomplete="given-name"
+                            required>
+                    </label>
+
+                    <label for="last-name">
+                        Last Name
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="lastName"
+                            title="Enter your last name"
+                            autocomplete="family-name"
+                            required>
+                    </label>
+
+                    <label for="organization-title">
+                        Organizational Title
+                        <input
+                            type="text"
+                            id="organization-title"
+                            name="organizationTitle"
+                            title="Enter your title within the organization"
+                            autocomplete="organization-title"
+                            pattern="[A-Za-z -]{7,}"
+                            placeholder="Example: General Manager">
+                    </label>
+
+                    <label for="email">
+                        Email Address
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            title="Enter your email address"
+                            autocomplete="email"
+                            placeholder="example@email.com"
+                            required>
+                    </label>
+
+                    <label for="phone">
+                        Mobile Phone Number
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            title="Enter your mobile phone number"
+                            autocomplete="tel"
+                            required>
+                    </label>
+
+                    <label for="organization">
+                        Business / Organization Name
+                        <input
+                            type="text"
+                            id="organization"
+                            name="organization"
+                            title="Enter your business or organization name"
+                            autocomplete="organization"
+                            required>
+                    </label>
+
+                    <fieldset>
+                        <legend>Membership Level</legend>
+
+                        <label for="np">
+                            <input
+                                type="radio"
+                                id="np"
+                                name="membership"
+                                value="np"
+                                required>
+                            NP Membership
+                        </label>
+
+                        <label for="bronze">
+                            <input
+                                type="radio"
+                                id="bronze"
+                                name="membership"
+                                value="bronze">
+                            Bronze Membership
+                        </label>
+
+                        <label for="silver">
+                            <input
+                                type="radio"
+                                id="silver"
+                                name="membership"
+                                value="silver">
+                            Silver Membership
+                        </label>
+
+                        <label for="gold">
+                            <input
+                                type="radio"
+                                id="gold"
+                                name="membership"
+                                value="gold">
+                            Gold Membership
+                        </label>
+                    </fieldset>
+
+                    <label for="description">
+                        Business / Organization Description
+                        <textarea
+                            id="description"
+                            name="description"
+                            title="Describe your business or organization"
+                            rows="5"></textarea>
+                    </label>
+
+                    <input
+                        type="hidden"
+                        id="timestamp"
+                        name="timestamp">
+
+                    <button type="submit">
+                        Submit Application
+                    </button>
+
+                </form>
+
+            </section>
+
+
+            <!-- MEMBERSHIP CARDS -->
+            <section class="membership-levels">
+
+                <h2>Membership Levels</h2>
+
+                <article class="membership-card">
+                    <h3>NP Membership</h3>
+                    <p>Free membership for nonprofit organizations.</p>
+                    <a href="#np-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Affordable membership for growing businesses.</p>
+                    <a href="#bronze-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p>More visibility and additional business benefits.</p>
+                    <a href="#silver-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p>Maximum visibility and premium benefits.</p>
+                    <a href="#gold-modal">More Information</a>
+                </article>
+
+            </section>
+
+        </div>
+
+
+        <!-- MODALS -->
+
+        <dialog id="np-modal">
+            <h2>NP Membership</h2>
+            <p><strong>Cost:</strong> Free</p>
+            <ul>
+                <li>Chamber membership</li>
+                <li>Networking opportunities</li>
+                <li>Community events</li>
+                <li>Business resources</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="bronze-modal">
+            <h2>Bronze Membership</h2>
+            <p><strong>Cost:</strong> $100 per year</p>
+            <ul>
+                <li>All NP membership benefits</li>
+                <li>Business networking</li>
+                <li>Training opportunities</li>
+                <li>Event discounts</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="silver-modal">
+            <h2>Silver Membership</h2>
+            <p><strong>Cost:</strong> $200 per year</p>
+            <ul>
+                <li>All Bronze membership benefits</li>
+                <li>Business advertising</li>
+                <li>Additional event discounts</li>
+                <li>Priority networking opportunities</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="gold-modal">
+            <h2>Gold Membership</h2>
+            <p><strong>Cost:</strong> $350 per year</p>
+            <ul>
+                <li>All Silver membership benefits</li>
+                <li>Premium advertising</li>
+                <li>Home page spotlight opportunities</li>
+                <li>Premium training opportunities</li>
+                <li>Special event benefits</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+    </main>
+
+
+    <footer>
+
+        <div class="contact-information">
+            <p><strong>Cholula Chamber of Commerce</strong></p>
+            <p>Cholula, Puebla, Mexico</p>
+            <p>Phone: 222-000-0000</p>
+            <p>Email: info@cholulachamber.com</p>
+        </div>
+
+        <div class="development-information">
+            <p>
+                © <span id="currentyear"></span>
+                Israel Cirne
+            </p>
+
+            <p>WDD 231</p>
+
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
