@@ -151,6 +151,20 @@
         grid-column: 2;
     }
 
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .discover-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-template-areas:
+            "one two"
+            "three four"
+            "five six"
+            "seven eight";
+    }
+
+}
+
 
     /* =========================
        FOOTER
