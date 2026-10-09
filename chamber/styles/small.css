@@ -90,7 +90,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    background-color: #14b8a6;
+    background-color: #0f766e;
 }
 
 /* MAIN */
@@ -133,7 +133,7 @@ h1 {
 }
 
 .view-buttons button:hover {
-    background-color: #14b8a6;
+    background-color: #0f766e;
     color: white;
 }
 
@@ -260,7 +260,7 @@ footer p {
     display: inline-block;
     padding: 0.7rem 1rem;
 
-    background-color: #14b8a6;
+    background-color: #0f766e;
     color: white;
 
     text-decoration: none;
@@ -472,7 +472,7 @@ fieldset input {
     border: none;
     border-radius: 4px;
 
-    background-color: #14b8a6;
+    background-color: #0f766e;
     color: white;
 
     font-family: inherit;
@@ -584,7 +584,7 @@ dialog h2 {
 }
 
 .close-modal:hover {
-    background-color: #14b8a6;
+    background-color: #0f766e;
 }
 
 /* THANK YOU PAGE */
@@ -676,7 +676,7 @@ dialog h2 {
 }
 
 .discover-card {
-    background-color: #ffffff;
+    background-color: #0f766e;
     border: 1px solid #d1d5db;
     border-radius: 6px;
     padding: 1rem;
