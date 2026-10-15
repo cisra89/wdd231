@@ -1,4 +1,3 @@
-
 :root {
   color-scheme: light;
   font-family: "Roboto", sans-serif;
@@ -84,7 +83,6 @@ textarea {
   outline-offset: 3px;
 }
 
-
 /* ========================================
    2. ACCESSIBILITY
 ======================================== */
@@ -118,7 +116,6 @@ textarea {
     transition-duration: 0.01ms !important;
   }
 }
-
 
 /* ========================================
    3. HEADER AND NAVIGATION
@@ -217,7 +214,6 @@ textarea {
   background: var(--teal-dark);
 }
 
-
 /* ========================================
    4. GENERAL LAYOUT AND TYPOGRAPHY
 ======================================== */
@@ -294,7 +290,6 @@ h3 {
   color: var(--muted);
   font-size: 1.05rem;
 }
-
 
 /* ========================================
    5. HERO SECTION
@@ -379,7 +374,6 @@ h3 {
   border-radius: 1rem;
   background: var(--navy);
 }
-
 
 /* ========================================
    6. CSS CIRCUIT ILLUSTRATION
@@ -475,7 +469,6 @@ h3 {
   letter-spacing: 0.12em;
 }
 
-
 /* ========================================
    7. FEATURE CARDS
 ======================================== */
@@ -523,7 +516,6 @@ h3 {
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
-
 
 /* ========================================
    8. PROJECT CARDS AND IMAGES
@@ -620,7 +612,6 @@ h3 {
   background: var(--teal-pale);
 }
 
-
 /* ========================================
    9. SAFETY NOTE
 ======================================== */
@@ -656,7 +647,6 @@ h3 {
   background: var(--teal-dark);
   font-weight: 700;
 }
-
 
 /* ========================================
    10. CATALOG SEARCH AND FILTERS
@@ -697,12 +687,12 @@ textarea {
 }
 
 .favorite-filter {
-  display: flex !important;
+  display: flex;
   align-items: center;
   align-self: end;
   gap: 0.55rem;
   min-height: 2.8rem;
-  margin: 0 !important;
+  margin: 0;
 }
 
 .favorite-filter input {
@@ -723,7 +713,6 @@ textarea {
   color: var(--error);
   background: var(--error-background);
 }
-
 
 /* ========================================
    11. PROJECT DETAILS DIALOG
@@ -776,7 +765,6 @@ textarea {
 .dialog-details li {
   margin: 0.35rem 0;
 }
-
 
 /* ========================================
    12. SUGGESTION FORM
@@ -848,7 +836,6 @@ textarea {
   margin: 0.45rem 0;
 }
 
-
 /* ========================================
    13. SUMMARY AND CONTENT CARDS
 ======================================== */
@@ -887,7 +874,6 @@ textarea {
 .content-card h2:not(:first-child) {
   margin-top: 1.5rem;
 }
-
 
 /* ========================================
    14. FOOTER
@@ -930,101 +916,6 @@ textarea {
 
 .copyright {
   font-size: 0.85rem;
-}
-
-
-/* ========================================
-   15. TABLET LAYOUT
-======================================== */
-
-@media screen and (min-width: 700px) {
-  .site-header {
-    flex-wrap: nowrap;
-    padding: 0.9rem max(1.5rem, calc((100% - var(--content-width)) / 2));
-  }
-
-  .menu-button {
-    display: none;
-  }
-
-  .primary-nav {
-    display: flex;
-    flex-basis: auto;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.25rem;
-    padding: 0;
-  }
-
-  .primary-nav a {
-    white-space: nowrap;
-  }
-
-  .hero {
-    grid-template-columns: 1.15fr 0.85fr;
-    align-items: center;
-    gap: 3rem;
-    padding: 4rem max(2rem, calc((100% - var(--content-width)) / 2));
-    min-height: auto; /* base min-height handled in desktop */
-  }
-
-  .hero-art {
-    min-height: 300px;
-  }
-
-  .feature-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .catalog-tools {
-    grid-template-columns: 2fr 1.2fr 1fr auto;
-    align-items: end;
-  }
-
-  .favorite-filter {
-    white-space: nowrap;
-  }
-
-  .form-layout {
-    grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.8fr);
-  }
-
-  .suggestion-form {
-    padding: 1.6rem;
-  }
-
-  .footer-inner {
-    grid-template-columns: 1.2fr 1fr;
-    align-items: start;
-  }
-
-  .copyright {
-    grid-column: 1 / -1;
-  }
-}
-
-
-/* ========================================
-   16. DESKTOP LAYOUT
-======================================== */
-
-@media screen and (min-width: 1024px) {
-  .project-grid,
-  .catalog-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .hero {
-    min-height: 440px;
-  }
-
-  .hero-art {
-    min-height: 330px;
-  }
 }
 
 
