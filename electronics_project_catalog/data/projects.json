@@ -1,0 +1,258 @@
+[
+  {
+    "id": "led-blinker",
+    "name": "LED Blinker",
+    "category": "Lighting",
+    "difficulty": "Beginner",
+    "time": "20 minutes",
+    "description": "Build a low-voltage circuit that makes an LED blink using a simple timing circuit.",
+    "components": [
+      "LED",
+      "resistors",
+      "capacitor",
+      "transistor",
+      "breadboard"
+    ],
+    "safety": "Use a battery-powered low-voltage supply and check LED polarity."
+  },
+  {
+    "id": "traffic-light",
+    "name": "Mini Traffic Light",
+    "category": "Lighting",
+    "difficulty": "Beginner",
+    "time": "45 minutes",
+    "description": "Use three LEDs to model a traffic light and practice sequencing outputs.",
+    "components": [
+      "red LED",
+      "yellow LED",
+      "green LED",
+      "resistors",
+      "microcontroller or timer circuit"
+    ],
+    "safety": "Use only USB or battery power at low voltage."
+  },
+  {
+    "id": "light-sensor",
+    "name": "Light-Level Indicator",
+    "category": "Sensors",
+    "difficulty": "Beginner",
+    "time": "40 minutes",
+    "description": "Make an indicator respond to changes in room brightness using a light-sensitive component.",
+    "components": [
+      "photoresistor",
+      "LED",
+      "resistors",
+      "breadboard"
+    ],
+    "safety": "Keep the circuit low voltage and avoid short circuits."
+  },
+  {
+    "id": "button-counter",
+    "name": "Pushbutton Counter",
+    "category": "Digital Logic",
+    "difficulty": "Intermediate",
+    "time": "60 minutes",
+    "description": "Count button presses and show the value with LEDs or a small display.",
+    "components": [
+      "pushbutton",
+      "microcontroller",
+      "LEDs",
+      "resistors"
+    ],
+    "safety": "Disconnect power before changing wiring."
+  },
+  {
+    "id": "temperature-display",
+    "name": "Temperature Display",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "time": "75 minutes",
+    "description": "Read a temperature sensor and show the measurement on a small display.",
+    "components": [
+      "temperature sensor",
+      "microcontroller",
+      "display",
+      "jumper wires"
+    ],
+    "safety": "Use a compatible low-voltage development board."
+  },
+  {
+    "id": "continuity-tester",
+    "name": "Low-Voltage Continuity Tester",
+    "category": "Test Equipment",
+    "difficulty": "Beginner",
+    "time": "30 minutes",
+    "description": "Create a simple battery-powered tester that indicates continuity in disconnected wires.",
+    "components": [
+      "battery holder",
+      "buzzer",
+      "resistor",
+      "probes"
+    ],
+    "safety": "Test only disconnected, de-energized circuits. Never connect to wall outlets."
+  },
+  {
+    "id": "reaction-game",
+    "name": "Reaction-Time Game",
+    "category": "Games",
+    "difficulty": "Intermediate",
+    "time": "90 minutes",
+    "description": "Build a game that measures how quickly a player responds to an LED signal.",
+    "components": [
+      "microcontroller",
+      "LED",
+      "button",
+      "buzzer"
+    ],
+    "safety": "Use a low-voltage USB or battery supply."
+  },
+  {
+    "id": "rgb-mixer",
+    "name": "RGB Color Mixer",
+    "category": "Lighting",
+    "difficulty": "Beginner",
+    "time": "35 minutes",
+    "description": "Mix red, green, and blue LED channels to explore additive color.",
+    "components": [
+      "RGB LED",
+      "current-limiting resistors",
+      "potentiometers",
+      "breadboard"
+    ],
+    "safety": "Use the correct current-limiting resistors for the LED."
+  },
+  {
+    "id": "moisture-indicator",
+    "name": "Plant Moisture Indicator",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "time": "60 minutes",
+    "description": "Use a moisture sensor to indicate when soil is relatively dry or moist.",
+    "components": [
+      "moisture sensor",
+      "LED",
+      "microcontroller",
+      "jumper wires"
+    ],
+    "safety": "Keep water away from exposed electronics and power connections."
+  },
+  {
+    "id": "buzzer-melody",
+    "name": "Buzzer Melody Player",
+    "category": "Sound",
+    "difficulty": "Beginner",
+    "time": "40 minutes",
+    "description": "Generate simple tones with a small piezo buzzer and timed notes.",
+    "components": [
+      "piezo buzzer",
+      "microcontroller",
+      "pushbuttons",
+      "breadboard"
+    ],
+    "safety": "Use a small low-voltage buzzer and keep volume comfortable."
+  },
+  {
+    "id": "distance-alert",
+    "name": "Distance Alert",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "time": "70 minutes",
+    "description": "Measure nearby object distance with a sensor and signal when an object is close.",
+    "components": [
+      "distance sensor",
+      "microcontroller",
+      "LED or buzzer",
+      "jumper wires"
+    ],
+    "safety": "Check the sensor's voltage requirements before wiring."
+  },
+  {
+    "id": "mini-weather",
+    "name": "Mini Weather Station",
+    "category": "Measurement",
+    "difficulty": "Intermediate",
+    "time": "2 hours",
+    "description": "Display temperature and humidity readings from a digital environmental sensor.",
+    "components": [
+      "temperature-humidity sensor",
+      "microcontroller",
+      "display",
+      "breadboard"
+    ],
+    "safety": "Use a protected, low-voltage power source."
+  },
+  {
+    "id": "capacitor-demo",
+    "name": "Capacitor Charge Demo",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "time": "25 minutes",
+    "description": "Observe how a capacitor affects the brightness or timing of a low-voltage LED circuit.",
+    "components": [
+      "capacitor",
+      "LED",
+      "resistors",
+      "battery pack"
+    ],
+    "safety": "Use only low-voltage components and observe capacitor polarity."
+  },
+  {
+    "id": "servo-pointer",
+    "name": "Servo Pointer",
+    "category": "Motion",
+    "difficulty": "Intermediate",
+    "time": "50 minutes",
+    "description": "Control a small servo motor to point to different positions on a marked scale.",
+    "components": [
+      "microcontroller",
+      "micro servo",
+      "external low-voltage supply if required"
+    ],
+    "safety": "Follow the servo's current requirements and avoid forcing its shaft."
+  },
+  {
+    "id": "digital-dice",
+    "name": "Electronic Dice",
+    "category": "Games",
+    "difficulty": "Beginner",
+    "time": "50 minutes",
+    "description": "Simulate a dice roll and show a random number using LEDs or a small display.",
+    "components": [
+      "microcontroller",
+      "pushbutton",
+      "LEDs or display",
+      "resistors"
+    ],
+    "safety": "Disconnect power before rewiring the project."
+  },
+  {
+    "id": "sound-level",
+    "name": "Sound-Level Indicator",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "time": "60 minutes",
+    "description": "Use a sound sensor module to light an LED when nearby sound passes a set threshold.",
+    "components": [
+      "sound sensor module",
+      "LED",
+      "resistor",
+      "microcontroller"
+    ],
+    "safety": "Treat it as an educational indicator, not a calibrated sound meter."
+  },
+  {
+    "id": "serial-monitor",
+    "name": "Serial Sensor Monitor",
+    "category": "Measurement",
+    "difficulty": "Beginner",
+    "time": "35 minutes",
+    "description": "Read a sensor and display its changing values in a serial monitor to practice debugging.",
+    "components": [
+      "microcontroller",
+      "potentiometer or sensor",
+      "USB cable",
+      "jumper wires"
+    ],
+    "safety": "Use a compatible board and USB power."
+  }
+]

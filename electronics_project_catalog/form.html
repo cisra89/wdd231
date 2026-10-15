@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Suggest a beginner-friendly electronics project for the catalog and share the skills or components it could teach.">
+  <meta name="author" content="Israel Cirne">
+  <meta property="og:title" content="Suggest a Project | Electronics Project Catalog">
+  <meta property="og:description" content="Share an electronics project idea for the learning catalog.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/electronics-workbench.webp">
+  <meta property="og:url" content="https://cisra89.github.io/wdd231/final/form.html">
+  <title>Suggest a Project | Electronics Project Catalog</title>
+  <link rel="icon" href="images/logo.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script type="module" src="scripts/form.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Electronics Project Catalog home"><span class="brand-mark" aria-hidden="true">E</span><span>Electronics <strong>Project Catalog</strong></span></a>
+    <button id="menu-button" class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="catalog.html">Catalog</a><a class="active" aria-current="page" href="form.html">Suggest a Project</a></nav>
+  </header>
+  <main id="main-content" class="page-main">
+    <section class="page-intro"><p class="eyebrow">SHARE AN IDEA</p><h1>Suggest an electronics project</h1><p>Have an idea that helps people learn electronics? Send a suggestion for a future catalog project.</p></section>
+    <div class="form-layout">
+      <form class="suggestion-form" action="thankyou.html" method="get">
+        <fieldset><legend>Your information</legend>
+          <label for="first-name">First name <span aria-hidden="true">*</span></label><input id="first-name" name="firstName" type="text" autocomplete="given-name" required minlength="2">
+          <label for="last-name">Last name <span aria-hidden="true">*</span></label><input id="last-name" name="lastName" type="text" autocomplete="family-name" required minlength="2">
+          <label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required>
+        </fieldset>
+        <fieldset><legend>Project details</legend>
+          <label for="project-name">Project name <span aria-hidden="true">*</span></label><input id="project-name" name="projectName" type="text" required minlength="3">
+          <label for="project-category">Category <span aria-hidden="true">*</span></label><select id="project-category" name="category" required><option value="">Choose a category</option><option>Lighting</option><option>Sensors</option><option>Digital Logic</option><option>Test Equipment</option><option>Games</option><option>Sound</option><option>Measurement</option><option>Fundamentals</option><option>Motion</option><option>Other</option></select>
+          <label for="difficulty">Suggested difficulty <span aria-hidden="true">*</span></label><select id="difficulty" name="difficulty" required><option value="">Choose a level</option><option>Beginner</option><option>Intermediate</option></select>
+          <label for="description">What will someone learn? <span aria-hidden="true">*</span></label><textarea id="description" name="description" rows="5" required minlength="15" maxlength="500"></textarea>
+          <label for="components">Suggested components (optional)</label><textarea id="components" name="components" rows="3" maxlength="300" placeholder="Example: LED, resistor, breadboard"></textarea>
+        </fieldset>
+        <p class="form-note">Fields marked with * are required. Do not include sensitive personal information. Suggestions are for low-voltage educational projects only.</p>
+        <button class="button button-primary submit-button" type="submit">Submit suggestion</button>
+      </form>
+      <aside class="form-aside"><span class="aside-icon" aria-hidden="true">↗</span><h2>Help others learn</h2><p>A useful project teaches one clear concept, lists its parts, and gives learners a safe way to practice.</p><h3>Good suggestions include</h3><ul><li>A clear learning goal</li><li>Common, affordable components</li><li>A beginner-friendly explanation</li><li>Low-voltage power only</li></ul><a class="text-link" href="catalog.html">Browse existing projects →</a></aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><div><a class="footer-brand" href="index.html">Electronics Project Catalog</a><p>Small circuits. Big learning.</p></div><div class="footer-links"><a href="attributions.html">Attributions</a><a href="form.html">Suggest a Project</a><a href="catalog.html">Catalog</a></div><p class="copyright">© <span class="current-year"></span> Electronics Project Catalog · Educational project</p></div></footer>
+</body>
+</html>

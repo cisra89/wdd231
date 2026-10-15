@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore beginner-friendly, low-voltage electronics projects with component lists, difficulty levels, and estimated build times.">
+  <meta name="author" content="Israel Cirne">
+  <meta property="og:title" content="Electronics Project Catalog">
+  <meta property="og:description" content="Explore practical, beginner-friendly electronics projects and learn the fundamentals.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/electronics-workbench.webp">
+  <meta property="og:url" content="https://cisra89.github.io/wdd231/final/">
+  <title>Home | Electronics Project Catalog</title>
+  <link rel="icon" href="images/logo.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script type="module" src="scripts/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Electronics Project Catalog home">
+      <span class="brand-mark" aria-hidden="true">E</span>
+      <span>Electronics <strong>Project Catalog</strong></span>
+    </a>
+    <button id="menu-button" class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a class="active" aria-current="page" href="index.html">Home</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="form.html">Suggest a Project</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">LEARN • BUILD • EXPLORE</p>
+        <h1>Bring your electronics ideas to life.</h1>
+        <p>Explore approachable, low-voltage projects that help you learn circuits, sensors, digital logic, and more—one build at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="catalog.html">Explore the catalog</a>
+          <a class="button button-secondary" href="form.html">Suggest a project</a>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a circuit board with electronic traces">
+        <div class="circuit-board">
+          <span class="chip chip-one"></span><span class="chip chip-two"></span>
+          <span class="circuit-line line-one"></span><span class="circuit-line line-two"></span>
+          <span class="circuit-line line-three"></span><span class="circuit-node node-one"></span>
+          <span class="circuit-node node-two"></span><span class="circuit-node node-three"></span>
+          <span class="board-label">DC / LOW VOLTAGE</span>
+        </div>
+      </div>
+    </section>
+    <section class="section-block" aria-labelledby="why-title">
+      <div class="section-heading">
+        <p class="eyebrow">START WITH THE BASICS</p>
+        <h2 id="why-title">Find your next project</h2>
+        <p>Choose a skill level, gather the parts, and learn by building.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon" aria-hidden="true">01</span><h3>Learn the fundamentals</h3><p>Practice circuits, components, sensors, and digital control with clear project descriptions.</p></article>
+        <article class="feature-card"><span class="feature-icon" aria-hidden="true">02</span><h3>Build at your pace</h3><p>Use difficulty and estimated time to find a project that matches your experience.</p></article>
+        <article class="feature-card"><span class="feature-icon" aria-hidden="true">03</span><h3>Save your favorites</h3><p>Keep a list of projects you want to try. Your favorites stay saved in this browser.</p></article>
+      </div>
+    </section>
+    <section class="section-block featured-section" aria-labelledby="featured-title">
+      <div class="section-heading section-heading-row">
+        <div><p class="eyebrow">A FEW IDEAS TO GET STARTED</p><h2 id="featured-title">Featured projects</h2></div>
+        <a class="text-link" href="catalog.html">View all projects <span aria-hidden="true">→</span></a>
+      </div>
+      <div id="featured-projects" class="project-grid" aria-live="polite">
+        <p class="loading-message">Loading featured projects…</p>
+      </div>
+      <p id="home-error" class="error-message" role="status" hidden>Projects could not be loaded. Please open the site through a local web server and try again.</p>
+    </section>
+    <section class="safety-note" aria-labelledby="safety-title">
+      <span class="safety-symbol" aria-hidden="true">!</span>
+      <div><h2 id="safety-title">Build safely</h2><p>These ideas are designed for low-voltage, battery-powered or USB-powered learning. Never connect hobby circuits to household mains electricity. Disconnect power before changing wiring and follow component instructions.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="footer-brand" href="index.html">Electronics Project Catalog</a><p>Small circuits. Big learning.</p></div>
+      <div class="footer-links"><a href="attributions.html">Attributions</a><a href="form.html">Suggest a Project</a><a href="catalog.html">Catalog</a></div>
+      <p class="copyright">© <span class="current-year"></span> Electronics Project Catalog · Educational project</p>
+    </div>
+  </footer>
+</body>
+</html>
