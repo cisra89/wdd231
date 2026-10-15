@@ -14,7 +14,7 @@
       "breadboard"
     ],
     "safety": "Use a battery-powered low-voltage supply and check LED polarity.",
-    "image": "images/projects/led-blinker.svg"
+    "image": "images/projects/led-blinker.png"
   },
   {
     "id": "traffic-light",
@@ -31,7 +31,7 @@
       "microcontroller or timer circuit"
     ],
     "safety": "Use only USB or battery power at low voltage.",
-    "image": "images/projects/traffic-light.svg"
+    "image": "images/projects/traffic-light.png"
   },
   {
     "id": "light-sensor",
@@ -47,7 +47,7 @@
       "breadboard"
     ],
     "safety": "Keep the circuit low voltage and avoid short circuits.",
-    "image": "images/projects/light-sensor.svg"
+    "image": "images/projects/light-sensor.png"
   },
   {
     "id": "button-counter",
@@ -63,7 +63,7 @@
       "resistors"
     ],
     "safety": "Disconnect power before changing wiring.",
-    "image": "images/projects/button-counter.svg"
+    "image": "images/projects/button-counter.png"
   },
   {
     "id": "temperature-display",
@@ -79,7 +79,7 @@
       "jumper wires"
     ],
     "safety": "Use a compatible low-voltage development board.",
-    "image": "images/projects/temperature-display.svg"
+    "image": "images/projects/temperature-display.png"
   },
   {
     "id": "continuity-tester",
@@ -95,7 +95,7 @@
       "probes"
     ],
     "safety": "Test only disconnected, de-energized circuits. Never connect to wall outlets.",
-    "image": "images/projects/continuity-tester.svg"
+    "image": "images/projects/continuity-tester.png"
   },
   {
     "id": "reaction-game",
@@ -111,7 +111,7 @@
       "buzzer"
     ],
     "safety": "Use a low-voltage USB or battery supply.",
-    "image": "images/projects/reaction-game.svg"
+    "image": "images/projects/reaction-game.png"
   },
   {
     "id": "rgb-mixer",
@@ -127,7 +127,7 @@
       "breadboard"
     ],
     "safety": "Use the correct current-limiting resistors for the LED.",
-    "image": "images/projects/rgb-mixer.svg"
+    "image": "images/projects/rgb-mixer.png"
   },
   {
     "id": "moisture-indicator",
@@ -143,7 +143,7 @@
       "jumper wires"
     ],
     "safety": "Keep water away from exposed electronics and power connections.",
-    "image": "images/projects/moisture-indicator.svg"
+    "image": "images/projects/moisture-indicator.png"
   },
   {
     "id": "buzzer-melody",
@@ -159,7 +159,7 @@
       "breadboard"
     ],
     "safety": "Use a small low-voltage buzzer and keep volume comfortable.",
-    "image": "images/projects/buzzer-melody.svg"
+    "image": "images/projects/buzzer-melody.png"
   },
   {
     "id": "distance-alert",
@@ -175,7 +175,7 @@
       "jumper wires"
     ],
     "safety": "Check the sensor's voltage requirements before wiring.",
-    "image": "images/projects/distance-alert.svg"
+    "image": "images/projects/distance-alert.png"
   },
   {
     "id": "mini-weather",
@@ -191,7 +191,7 @@
       "breadboard"
     ],
     "safety": "Use a protected, low-voltage power source.",
-    "image": "images/projects/mini-weather.svg"
+    "image": "images/projects/mini-weather.png"
   },
   {
     "id": "capacitor-demo",
@@ -207,7 +207,7 @@
       "battery pack"
     ],
     "safety": "Use only low-voltage components and observe capacitor polarity.",
-    "image": "images/projects/capacitor-demo.svg"
+    "image": "images/projects/capacitor-demo.png"
   },
   {
     "id": "servo-pointer",
@@ -222,7 +222,7 @@
       "external low-voltage supply if required"
     ],
     "safety": "Follow the servo's current requirements and avoid forcing its shaft.",
-    "image": "images/projects/servo-pointer.svg"
+    "image": "images/projects/servo-pointer.png"
   },
   {
     "id": "digital-dice",
@@ -238,7 +238,7 @@
       "resistors"
     ],
     "safety": "Disconnect power before rewiring the project.",
-    "image": "images/projects/digital-dice.svg"
+    "image": "images/projects/digital-dice.png"
   },
   {
     "id": "sound-level",
@@ -254,7 +254,7 @@
       "microcontroller"
     ],
     "safety": "Treat it as an educational indicator, not a calibrated sound meter.",
-    "image": "images/projects/sound-level.svg"
+    "image": "images/projects/sound-level.png"
   },
   {
     "id": "serial-monitor",
@@ -270,6 +270,6 @@
       "jumper wires"
     ],
     "safety": "Use a compatible board and USB power.",
-    "image": "images/projects/serial-monitor.svg"
+    "image": "images/projects/serial-monitor.png"
   }
 ]
