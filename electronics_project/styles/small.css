@@ -965,6 +965,7 @@ textarea {
     align-items: center;
     gap: 3rem;
     padding: 4rem max(2rem, calc((100% - var(--content-width)) / 2));
+    min-height: auto; /* base min-height handled in desktop */
   }
 
   .hero-art {
@@ -1025,5 +1026,5 @@ textarea {
     min-height: 330px;
   }
 }
-```
+
 
