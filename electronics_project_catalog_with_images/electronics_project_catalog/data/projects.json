@@ -13,7 +13,8 @@
       "transistor",
       "breadboard"
     ],
-    "safety": "Use a battery-powered low-voltage supply and check LED polarity."
+    "safety": "Use a battery-powered low-voltage supply and check LED polarity.",
+    "image": "images/projects/led-blinker.svg"
   },
   {
     "id": "traffic-light",
@@ -29,7 +30,8 @@
       "resistors",
       "microcontroller or timer circuit"
     ],
-    "safety": "Use only USB or battery power at low voltage."
+    "safety": "Use only USB or battery power at low voltage.",
+    "image": "images/projects/traffic-light.svg"
   },
   {
     "id": "light-sensor",
@@ -44,7 +46,8 @@
       "resistors",
       "breadboard"
     ],
-    "safety": "Keep the circuit low voltage and avoid short circuits."
+    "safety": "Keep the circuit low voltage and avoid short circuits.",
+    "image": "images/projects/light-sensor.svg"
   },
   {
     "id": "button-counter",
@@ -59,7 +62,8 @@
       "LEDs",
       "resistors"
     ],
-    "safety": "Disconnect power before changing wiring."
+    "safety": "Disconnect power before changing wiring.",
+    "image": "images/projects/button-counter.svg"
   },
   {
     "id": "temperature-display",
@@ -74,7 +78,8 @@
       "display",
       "jumper wires"
     ],
-    "safety": "Use a compatible low-voltage development board."
+    "safety": "Use a compatible low-voltage development board.",
+    "image": "images/projects/temperature-display.svg"
   },
   {
     "id": "continuity-tester",
@@ -89,7 +94,8 @@
       "resistor",
       "probes"
     ],
-    "safety": "Test only disconnected, de-energized circuits. Never connect to wall outlets."
+    "safety": "Test only disconnected, de-energized circuits. Never connect to wall outlets.",
+    "image": "images/projects/continuity-tester.svg"
   },
   {
     "id": "reaction-game",
@@ -104,7 +110,8 @@
       "button",
       "buzzer"
     ],
-    "safety": "Use a low-voltage USB or battery supply."
+    "safety": "Use a low-voltage USB or battery supply.",
+    "image": "images/projects/reaction-game.svg"
   },
   {
     "id": "rgb-mixer",
@@ -119,7 +126,8 @@
       "potentiometers",
       "breadboard"
     ],
-    "safety": "Use the correct current-limiting resistors for the LED."
+    "safety": "Use the correct current-limiting resistors for the LED.",
+    "image": "images/projects/rgb-mixer.svg"
   },
   {
     "id": "moisture-indicator",
@@ -134,7 +142,8 @@
       "microcontroller",
       "jumper wires"
     ],
-    "safety": "Keep water away from exposed electronics and power connections."
+    "safety": "Keep water away from exposed electronics and power connections.",
+    "image": "images/projects/moisture-indicator.svg"
   },
   {
     "id": "buzzer-melody",
@@ -149,7 +158,8 @@
       "pushbuttons",
       "breadboard"
     ],
-    "safety": "Use a small low-voltage buzzer and keep volume comfortable."
+    "safety": "Use a small low-voltage buzzer and keep volume comfortable.",
+    "image": "images/projects/buzzer-melody.svg"
   },
   {
     "id": "distance-alert",
@@ -164,7 +174,8 @@
       "LED or buzzer",
       "jumper wires"
     ],
-    "safety": "Check the sensor's voltage requirements before wiring."
+    "safety": "Check the sensor's voltage requirements before wiring.",
+    "image": "images/projects/distance-alert.svg"
   },
   {
     "id": "mini-weather",
@@ -179,7 +190,8 @@
       "display",
       "breadboard"
     ],
-    "safety": "Use a protected, low-voltage power source."
+    "safety": "Use a protected, low-voltage power source.",
+    "image": "images/projects/mini-weather.svg"
   },
   {
     "id": "capacitor-demo",
@@ -194,7 +206,8 @@
       "resistors",
       "battery pack"
     ],
-    "safety": "Use only low-voltage components and observe capacitor polarity."
+    "safety": "Use only low-voltage components and observe capacitor polarity.",
+    "image": "images/projects/capacitor-demo.svg"
   },
   {
     "id": "servo-pointer",
@@ -208,7 +221,8 @@
       "micro servo",
       "external low-voltage supply if required"
     ],
-    "safety": "Follow the servo's current requirements and avoid forcing its shaft."
+    "safety": "Follow the servo's current requirements and avoid forcing its shaft.",
+    "image": "images/projects/servo-pointer.svg"
   },
   {
     "id": "digital-dice",
@@ -223,7 +237,8 @@
       "LEDs or display",
       "resistors"
     ],
-    "safety": "Disconnect power before rewiring the project."
+    "safety": "Disconnect power before rewiring the project.",
+    "image": "images/projects/digital-dice.svg"
   },
   {
     "id": "sound-level",
@@ -238,7 +253,8 @@
       "resistor",
       "microcontroller"
     ],
-    "safety": "Treat it as an educational indicator, not a calibrated sound meter."
+    "safety": "Treat it as an educational indicator, not a calibrated sound meter.",
+    "image": "images/projects/sound-level.svg"
   },
   {
     "id": "serial-monitor",
@@ -253,6 +269,7 @@
       "USB cable",
       "jumper wires"
     ],
-    "safety": "Use a compatible board and USB power."
+    "safety": "Use a compatible board and USB power.",
+    "image": "images/projects/serial-monitor.svg"
   }
 ]

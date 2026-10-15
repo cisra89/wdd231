@@ -135,3 +135,15 @@ textarea { resize: vertical; }
 .footer-links a { color: #bceff0; text-underline-offset: 3px; }
 .copyright { font-size: .85rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+
+/* Project catalog illustrations */
+.project-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 15 / 11;
+  object-fit: cover;
+  border-radius: .55rem;
+  margin: 0 0 1rem;
+  background: #0b1e2d;
+}

@@ -36,6 +36,7 @@ function renderProjects() {
 
   grid.innerHTML = filteredProjects.map((project) => `
     <article class="project-card">
+      <img class="project-image" src="${escapeHTML(project.image)}" alt="Illustration for ${escapeHTML(project.name)}" width="600" height="440" loading="lazy">
       <h2>${escapeHTML(project.name)}</h2>
       <div class="project-meta">
         <span class="pill">${escapeHTML(project.category)}</span>
